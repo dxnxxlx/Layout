@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+.container{
+	width: 700px;
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	border: 3px solid #adad85;
+	box-sizing: content-box;
+}
+
+.padding {
+	width: auto;
+	padding: 30px;
+
+}
+
+.perfil img{
+	width: 130px;
+	border-radius: 100%;
+	border: 1px double #adad85;
+
+}
+
+.nombre {
+	font-size: 40px;
+	margin: 10px;
+	font-family: 'Pacifico';
+
+}
+
+.bio p { 
+	width: 90%;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Pacifico';
+
+
+}
+
+.item {
+	font-size: 30px;
+	font-family: 'Pacifico';
+	margin: 15px 0px;
+}
+
+.caja {
+	margin: 30px;
+	padding: 15px;
+	box-sizing: content-box;
+	background-color: #adad85;
+	font-family:'Chewy';
+	font-size: 20px;
+
+
+}
+
+.uno {
+	width: 500px;
+
+}
+
+.dos {
+	width: 350px;
+}
+
+.tres {
+	width: 200px;
+}
+
+
+.cajafotos {
+	position: relative;
+	padding-bottom: 8px;
+	background-color: #e9e9e2;
+	
+}
+
+
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+}
+
+.clearfix:after{
+	clear: both;
+}
+
+.foto img{
+	width: 170px;
+	margin: 18px;
+	
+	
+
+}
+
+.foto {
+	display: inline-block;
+	position: relative;
+}
